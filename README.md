@@ -27,6 +27,9 @@ Watch Party: We provide fans with the ability to watch the game with a group of 
 - Website: https://engagin.netlify.app/
 - Marketing Video: https://www.youtube.com/watch?v=yZinBBeHTVI
 
+## Figma Link
+https://www.figma.com/file/4bvrB1AEgZ37bjpOApBBJL/PSC_TS_031023?node-id=14%3A804&t=OoJbe08QkNXXNAGO-1
+
 
 ## Team
 - Sam Davis Omekara Jr. - omekara.samdavis@philander.edu
