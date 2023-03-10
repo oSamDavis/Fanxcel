@@ -1,0 +1,40 @@
+
+[{
+    "id" : "1",
+    "stadium": "Acrisure Stadium",
+    "team1Name": "Seattle Seahawks",
+    "team1Icon": "seattle-seahawks",
+    "team2Name": "Pittsburg Steelers",
+    "team2Icon": "steelers",
+    "finalScore": "22 - 16"
+},
+    
+    {
+        "id" : "2",
+        "stadium": "Mercedes Benz Stadium",
+        "team1Name": "Atlanta Falcons",
+        "team1Icon": "falcons",
+        "team2Name": "Denver Broncos",
+        "team2Icon": "broncers",
+        "finalScore": "14 - 12",
+    },
+    {
+        "id" : "3",
+        "stadium": "Gillette Stadium",
+        "team1Name": "New England Patriots",
+        "team1Icon": "patroits",
+        "team2Name": "Buffalo Bills",
+        "team2Icon": "bills",
+        "finalScore": "35 - 36",
+    },
+    {
+        "id" : "4",
+        "stadium": "Levi Stadium",
+        "team1Name": "San Francisco 49ers",
+        "team1Icon": "sf",
+        "team2Name": "Carolina Panthers",
+        "team2Icon": "panthers",
+        "finalScore": "33 - 16",
+    },
+    
+]

@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3A108E329BA85A600DCF664 /* Fanxcel_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A108E229BA85A600DCF664 /* Fanxcel_1App.swift */; };
+		A3A108E529BA85A600DCF664 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A108E429BA85A600DCF664 /* ContentView.swift */; };
+		A3A108E729BA85A800DCF664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A108E629BA85A800DCF664 /* Assets.xcassets */; };
+		A3A108EA29BA85A800DCF664 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A108E929BA85A800DCF664 /* Preview Assets.xcassets */; };
+		A3D2588F29BA871D00499C86 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D2588E29BA871D00499C86 /* Extension.swift */; };
+		A3D258A529BA880B00499C86 /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258A429BA880B00499C86 /* WatchView.swift */; };
+		A3D258A729BA882000499C86 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258A629BA882000499C86 /* TeamView.swift */; };
+		A3D258A929BA883000499C86 /* HighlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258A829BA883000499C86 /* HighlightView.swift */; };
+		A3D258AB29BA883E00499C86 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258AA29BA883E00499C86 /* ProfileView.swift */; };
+		A3D258B229BA8B5200499C86 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258B129BA8B5200499C86 /* HeaderView.swift */; };
+		A3D258B629BA8CA700499C86 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258B529BA8CA700499C86 /* SearchBarView.swift */; };
+		A3D258BA29BA944700499C86 /* VideoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258B929BA944700499C86 /* VideoCard.swift */; };
+		A3D258BC29BADAE700499C86 /* HighlightsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258BB29BADAE700499C86 /* HighlightsCard.swift */; };
+		A3D258BE29BAE6E000499C86 /* TikTokStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258BD29BAE6E000499C86 /* TikTokStyle.swift */; };
+		A3D258CC29BAFC7F00499C86 /* PlayerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258CB29BAFC7F00499C86 /* PlayerCard.swift */; };
+		A3D258CE29BAFD6500499C86 /* GiftCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258CD29BAFD6500499C86 /* GiftCard.swift */; };
+		A3D258D029BAFF6F00499C86 /* JumbotronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258CF29BAFF6F00499C86 /* JumbotronView.swift */; };
+		A3D258D229BB03F900499C86 /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258D129BB03F900499C86 /* ProfileCard.swift */; };
+		A3D258DA29BB191300499C86 /* ARStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258D929BB191300499C86 /* ARStatsView.swift */; };
+		A3D258DE29BB1D5D00499C86 /* ARStatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258DD29BB1D5D00499C86 /* ARStatsViewModel.swift */; };
+		A3D258E029BB1EBA00499C86 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258DF29BB1EBA00499C86 /* CustomARView.swift */; };
+		A3D258E329BB1EF500499C86 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = A3D258E229BB1EF500499C86 /* FocusEntity */; };
+		A3D258E729BB20DB00499C86 /* football-field.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A3D258E629BB20DB00499C86 /* football-field.usdz */; };
+		A3D258F129BB296200499C86 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D258F029BB296200499C86 /* Game.swift */; };
+		A3D258F329BB2B7D00499C86 /* game.json in Resources */ = {isa = PBXBuildFile; fileRef = A3D258F229BB2B7D00499C86 /* game.json */; };
+		A3D258F729BB3F1D00499C86 /* video6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A3D258F429BB3F1D00499C86 /* video6.mp4 */; };
+		A3D258F829BB3F1D00499C86 /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A3D258F529BB3F1D00499C86 /* video4.mp4 */; };
+		A3D258F929BB3F1D00499C86 /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A3D258F629BB3F1D00499C86 /* video5.mp4 */; };
+		A3D2590229BB51C900499C86 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A3D2590029BB51C900499C86 /* video1.mp4 */; };
+		A3D2590329BB51C900499C86 /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A3D2590129BB51C900499C86 /* video3.mp4 */; };
+		A3D2590529BB51D900499C86 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A3D2590429BB51D900499C86 /* video2.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3A108DF29BA85A600DCF664 /* Fanxcel-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fanxcel-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A108E229BA85A600DCF664 /* Fanxcel_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fanxcel_1App.swift; sourceTree = "<group>"; };
+		A3A108E429BA85A600DCF664 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3A108E629BA85A800DCF664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3A108E929BA85A800DCF664 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3D2588E29BA871D00499C86 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A3D258A429BA880B00499C86 /* WatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchView.swift; sourceTree = "<group>"; };
+		A3D258A629BA882000499C86 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		A3D258A829BA883000499C86 /* HighlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightView.swift; sourceTree = "<group>"; };
+		A3D258AA29BA883E00499C86 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A3D258B129BA8B5200499C86 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		A3D258B529BA8CA700499C86 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		A3D258B929BA944700499C86 /* VideoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCard.swift; sourceTree = "<group>"; };
+		A3D258BB29BADAE700499C86 /* HighlightsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightsCard.swift; sourceTree = "<group>"; };
+		A3D258BD29BAE6E000499C86 /* TikTokStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokStyle.swift; sourceTree = "<group>"; };
+		A3D258CB29BAFC7F00499C86 /* PlayerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCard.swift; sourceTree = "<group>"; };
+		A3D258CD29BAFD6500499C86 /* GiftCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCard.swift; sourceTree = "<group>"; };
+		A3D258CF29BAFF6F00499C86 /* JumbotronView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumbotronView.swift; sourceTree = "<group>"; };
+		A3D258D129BB03F900499C86 /* ProfileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCard.swift; sourceTree = "<group>"; };
+		A3D258D929BB191300499C86 /* ARStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARStatsView.swift; sourceTree = "<group>"; };
+		A3D258DD29BB1D5D00499C86 /* ARStatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARStatsViewModel.swift; sourceTree = "<group>"; };
+		A3D258DF29BB1EBA00499C86 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		A3D258E629BB20DB00499C86 /* football-field.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "football-field.usdz"; sourceTree = "<group>"; };
+		A3D258F029BB296200499C86 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A3D258F229BB2B7D00499C86 /* game.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = game.json; sourceTree = "<group>"; };
+		A3D258F429BB3F1D00499C86 /* video6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video6.mp4; sourceTree = "<group>"; };
+		A3D258F529BB3F1D00499C86 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+		A3D258F629BB3F1D00499C86 /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video5.mp4; sourceTree = "<group>"; };
+		A3D2590029BB51C900499C86 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		A3D2590129BB51C900499C86 /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		A3D2590429BB51D900499C86 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3A108DC29BA85A600DCF664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D258E329BB1EF500499C86 /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3A108D629BA85A600DCF664 = {
+			isa = PBXGroup;
+			children = (
+				A3D2590029BB51C900499C86 /* video1.mp4 */,
+				A3D2590429BB51D900499C86 /* video2.mp4 */,
+				A3D2590129BB51C900499C86 /* video3.mp4 */,
+				A3D258F529BB3F1D00499C86 /* video4.mp4 */,
+				A3D258F629BB3F1D00499C86 /* video5.mp4 */,
+				A3D258F429BB3F1D00499C86 /* video6.mp4 */,
+				A3A108E129BA85A600DCF664 /* Fanxcel-1 */,
+				A3A108E029BA85A600DCF664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3A108E029BA85A600DCF664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A108DF29BA85A600DCF664 /* Fanxcel-1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3A108E129BA85A600DCF664 /* Fanxcel-1 */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258EE29BB290100499C86 /* Data */,
+				A3D258DC29BB1B2100499C86 /* 3D-Groups */,
+				A3D2588D29BA871D00499C86 /* Extensions */,
+				A3D2589029BA873500499C86 /* Core */,
+				A3A108E229BA85A600DCF664 /* Fanxcel_1App.swift */,
+				A3A108E429BA85A600DCF664 /* ContentView.swift */,
+				A3A108E629BA85A800DCF664 /* Assets.xcassets */,
+				A3A108E829BA85A800DCF664 /* Preview Content */,
+			);
+			path = "Fanxcel-1";
+			sourceTree = "<group>";
+		};
+		A3A108E829BA85A800DCF664 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3A108E929BA85A800DCF664 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3D2588D29BA871D00499C86 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A3D2588E29BA871D00499C86 /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A3D2589029BA873500499C86 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258AF29BA8B1100499C86 /* Components */,
+				A3D258A129BA87E900499C86 /* Watch */,
+				A3D2589629BA878200499C86 /* Team */,
+				A3D2589429BA876A00499C86 /* Highlight */,
+				A3D2589329BA876100499C86 /* Profile */,
+				A3D2589229BA875000499C86 /* AR */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A3D2589229BA875000499C86 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258A029BA87CB00499C86 /* ViewModel */,
+				A3D2589F29BA87C500499C86 /* View */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		A3D2589329BA876100499C86 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A3D2589E29BA87BE00499C86 /* ViewModel */,
+				A3D2589D29BA87B900499C86 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A3D2589429BA876A00499C86 /* Highlight */ = {
+			isa = PBXGroup;
+			children = (
+				A3D2589C29BA87B200499C86 /* ViewModel */,
+				A3D2589B29BA87AB00499C86 /* View */,
+			);
+			path = Highlight;
+			sourceTree = "<group>";
+		};
+		A3D2589629BA878200499C86 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				A3D2589829BA879900499C86 /* ViewModel */,
+				A3D2589729BA879200499C86 /* View */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		A3D2589729BA879200499C86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258A629BA882000499C86 /* TeamView.swift */,
+				A3D258CB29BAFC7F00499C86 /* PlayerCard.swift */,
+				A3D258CD29BAFD6500499C86 /* GiftCard.swift */,
+				A3D258CF29BAFF6F00499C86 /* JumbotronView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3D2589829BA879900499C86 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A3D2589B29BA87AB00499C86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258A829BA883000499C86 /* HighlightView.swift */,
+				A3D258BB29BADAE700499C86 /* HighlightsCard.swift */,
+				A3D258BD29BAE6E000499C86 /* TikTokStyle.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3D2589C29BA87B200499C86 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A3D2589D29BA87B900499C86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258AA29BA883E00499C86 /* ProfileView.swift */,
+				A3D258D129BB03F900499C86 /* ProfileCard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3D2589E29BA87BE00499C86 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A3D2589F29BA87C500499C86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258D929BB191300499C86 /* ARStatsView.swift */,
+				A3D258DF29BB1EBA00499C86 /* CustomARView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3D258A029BA87CB00499C86 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258DD29BB1D5D00499C86 /* ARStatsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A3D258A129BA87E900499C86 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258A329BA87FB00499C86 /* ViewModel */,
+				A3D258A229BA87F500499C86 /* View */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		A3D258A229BA87F500499C86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258A429BA880B00499C86 /* WatchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3D258A329BA87FB00499C86 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A3D258AF29BA8B1100499C86 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258B029BA8B2700499C86 /* Views */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A3D258B029BA8B2700499C86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258B129BA8B5200499C86 /* HeaderView.swift */,
+				A3D258B529BA8CA700499C86 /* SearchBarView.swift */,
+				A3D258B929BA944700499C86 /* VideoCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A3D258DC29BB1B2100499C86 /* 3D-Groups */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258E629BB20DB00499C86 /* football-field.usdz */,
+			);
+			path = "3D-Groups";
+			sourceTree = "<group>";
+		};
+		A3D258EE29BB290100499C86 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258EF29BB290D00499C86 /* Model */,
+				A3D258F229BB2B7D00499C86 /* game.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A3D258EF29BB290D00499C86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3D258F029BB296200499C86 /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3A108DE29BA85A600DCF664 /* Fanxcel-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A108ED29BA85A800DCF664 /* Build configuration list for PBXNativeTarget "Fanxcel-1" */;
+			buildPhases = (
+				A3A108DB29BA85A600DCF664 /* Sources */,
+				A3A108DC29BA85A600DCF664 /* Frameworks */,
+				A3A108DD29BA85A600DCF664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fanxcel-1";
+			packageProductDependencies = (
+				A3D258E229BB1EF500499C86 /* FocusEntity */,
+			);
+			productName = "Fanxcel-1";
+			productReference = A3A108DF29BA85A600DCF664 /* Fanxcel-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3A108D729BA85A600DCF664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A3A108DE29BA85A600DCF664 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A3A108DA29BA85A600DCF664 /* Build configuration list for PBXProject "Fanxcel-1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3A108D629BA85A600DCF664;
+			packageReferences = (
+				A3D258E129BB1EF500499C86 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = A3A108E029BA85A600DCF664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3A108DE29BA85A600DCF664 /* Fanxcel-1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3A108DD29BA85A600DCF664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A108EA29BA85A800DCF664 /* Preview Assets.xcassets in Resources */,
+				A3D2590329BB51C900499C86 /* video3.mp4 in Resources */,
+				A3D2590229BB51C900499C86 /* video1.mp4 in Resources */,
+				A3A108E729BA85A800DCF664 /* Assets.xcassets in Resources */,
+				A3D258F929BB3F1D00499C86 /* video5.mp4 in Resources */,
+				A3D258E729BB20DB00499C86 /* football-field.usdz in Resources */,
+				A3D258F829BB3F1D00499C86 /* video4.mp4 in Resources */,
+				A3D258F729BB3F1D00499C86 /* video6.mp4 in Resources */,
+				A3D2590529BB51D900499C86 /* video2.mp4 in Resources */,
+				A3D258F329BB2B7D00499C86 /* game.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3A108DB29BA85A600DCF664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D258B629BA8CA700499C86 /* SearchBarView.swift in Sources */,
+				A3D258BE29BAE6E000499C86 /* TikTokStyle.swift in Sources */,
+				A3D258A529BA880B00499C86 /* WatchView.swift in Sources */,
+				A3D258DA29BB191300499C86 /* ARStatsView.swift in Sources */,
+				A3D258B229BA8B5200499C86 /* HeaderView.swift in Sources */,
+				A3D258DE29BB1D5D00499C86 /* ARStatsViewModel.swift in Sources */,
+				A3D2588F29BA871D00499C86 /* Extension.swift in Sources */,
+				A3D258A729BA882000499C86 /* TeamView.swift in Sources */,
+				A3D258A929BA883000499C86 /* HighlightView.swift in Sources */,
+				A3D258D229BB03F900499C86 /* ProfileCard.swift in Sources */,
+				A3A108E529BA85A600DCF664 /* ContentView.swift in Sources */,
+				A3D258F129BB296200499C86 /* Game.swift in Sources */,
+				A3D258D029BAFF6F00499C86 /* JumbotronView.swift in Sources */,
+				A3D258CE29BAFD6500499C86 /* GiftCard.swift in Sources */,
+				A3D258BC29BADAE700499C86 /* HighlightsCard.swift in Sources */,
+				A3D258E029BB1EBA00499C86 /* CustomARView.swift in Sources */,
+				A3D258AB29BA883E00499C86 /* ProfileView.swift in Sources */,
+				A3A108E329BA85A600DCF664 /* Fanxcel_1App.swift in Sources */,
+				A3D258CC29BAFC7F00499C86 /* PlayerCard.swift in Sources */,
+				A3D258BA29BA944700499C86 /* VideoCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3A108EB29BA85A800DCF664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3A108EC29BA85A800DCF664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3A108EE29BA85A800DCF664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fanxcel-1/Preview Content\"";
+				DEVELOPMENT_TEAM = W24PCWY554;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Fanxcel;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To Use Augmented Reality, this app needs access to your camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samdavisomekara.Fanxcel-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3A108EF29BA85A800DCF664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fanxcel-1/Preview Content\"";
+				DEVELOPMENT_TEAM = W24PCWY554;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Fanxcel;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To Use Augmented Reality, this app needs access to your camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samdavisomekara.Fanxcel-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3A108DA29BA85A600DCF664 /* Build configuration list for PBXProject "Fanxcel-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A108EB29BA85A800DCF664 /* Debug */,
+				A3A108EC29BA85A800DCF664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A108ED29BA85A800DCF664 /* Build configuration list for PBXNativeTarget "Fanxcel-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A108EE29BA85A800DCF664 /* Debug */,
+				A3A108EF29BA85A800DCF664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A3D258E129BB1EF500499C86 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A3D258E229BB1EF500499C86 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3D258E129BB1EF500499C86 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A3A108D729BA85A600DCF664 /* Project object */;
+}
